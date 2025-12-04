@@ -1,7 +1,5 @@
-function MaxMin()
+function MaxMin(names,ages)
 {
-    let names = ["Ankhel","Bunty","Chintu","Dinku"];
-    let ages = [20,21,19,18];
     let max=ages[0];
     let min=ages[0];
     let MaxName=names[0];
@@ -21,4 +19,6 @@ function MaxMin()
     }
     return {MaxName, max, MinName, min};
 }
-console.log(MaxMin());
+let names = ["Ankhel","Bunty","Chintu","Dinku"];
+    let ages = [20,21,19,18];
+console.log(MaxMin(names,ages));
