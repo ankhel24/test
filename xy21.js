@@ -12,7 +12,7 @@ function xy(arr,x,y)
     }
     return {counter,numbers};
 }
-let x=3;
-let y=2;
+let x=4;
+let y=5;
 let arr=[3,6,9,12,15,18,20,24];
 console.log(xy(arr,x,y));
